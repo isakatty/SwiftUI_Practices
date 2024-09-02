@@ -46,8 +46,6 @@ struct MBTIGridView: View {
         
         let selectedKeys = Set(selectedMBTI.keys)
         
-        print("Selected Keys: \(selectedKeys)")
-        
         allSelected = selectedKeys.count == 4
     }
 }

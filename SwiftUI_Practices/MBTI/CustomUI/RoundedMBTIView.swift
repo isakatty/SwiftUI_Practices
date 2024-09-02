@@ -12,16 +12,6 @@ struct RoundedMBTIView: View {
     var isSelected: Bool
     
     var body: some View {
-//        Text(MBTITxt)
-//            .foregroundColor(isSelected ? .white : .gray)
-//            .font(.title3)
-//            .overlay {
-//                Circle()
-//                    .fill(isSelected ? .blue : .white)
-//                    .stroke(Color.gray, lineWidth: 2)
-//                    .frame(width: 40, height: 40, alignment: .center)
-//            }
-        
         Circle()
             .fill(isSelected ? .blue : .white)
             .stroke(isSelected ? .blue : .gray, lineWidth: 2)

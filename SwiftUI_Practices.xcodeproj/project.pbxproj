@@ -18,6 +18,8 @@
 		C9D178632C85F2D7004D6610 /* MBTIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D178622C85F2D7004D6610 /* MBTIModel.swift */; };
 		C9D178672C85FDE0004D6610 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D178662C85FDE0004D6610 /* SuccessView.swift */; };
 		C9D178692C85FFD5004D6610 /* MBTIGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D178682C85FFD5004D6610 /* MBTIGridView.swift */; };
+		C9D1786E2C86076C004D6610 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D1786D2C86076C004D6610 /* SearchView.swift */; };
+		C9D178712C860779004D6610 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D178702C860779004D6610 /* SearchModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		C9D178622C85F2D7004D6610 /* MBTIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBTIModel.swift; sourceTree = "<group>"; };
 		C9D178662C85FDE0004D6610 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 		C9D178682C85FFD5004D6610 /* MBTIGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBTIGridView.swift; sourceTree = "<group>"; };
+		C9D1786D2C86076C004D6610 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		C9D178702C860779004D6610 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +69,8 @@
 		C9BE83982C85ADBE00F62F5D /* SwiftUI_Practices */ = {
 			isa = PBXGroup;
 			children = (
-				C9D178612C85F2D1004D6610 /* Model */,
-				C9D178582C85E254004D6610 /* View */,
-				C9D178572C85E1BD004D6610 /* CustomUI */,
+				C9D1786B2C86075D004D6610 /* Search */,
+				C9D1786A2C860750004D6610 /* MBTI */,
 				C9BE83992C85ADBE00F62F5D /* SwiftUI_PracticesApp.swift */,
 				C9BE839D2C85ADBF00F62F5D /* Assets.xcassets */,
 				C9BE839F2C85ADBF00F62F5D /* Preview Content */,
@@ -110,6 +113,49 @@
 				C9D178622C85F2D7004D6610 /* MBTIModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C9D1786A2C860750004D6610 /* MBTI */ = {
+			isa = PBXGroup;
+			children = (
+				C9D178612C85F2D1004D6610 /* Model */,
+				C9D178582C85E254004D6610 /* View */,
+				C9D178572C85E1BD004D6610 /* CustomUI */,
+			);
+			path = MBTI;
+			sourceTree = "<group>";
+		};
+		C9D1786B2C86075D004D6610 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C9D178722C860A4E004D6610 /* CustomView */,
+				C9D1786F2C860772004D6610 /* Model */,
+				C9D1786C2C860766004D6610 /* View */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		C9D1786C2C860766004D6610 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C9D1786D2C86076C004D6610 /* SearchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C9D1786F2C860772004D6610 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C9D178702C860779004D6610 /* SearchModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C9D178722C860A4E004D6610 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,11 +228,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D1786E2C86076C004D6610 /* SearchView.swift in Sources */,
 				C9D178672C85FDE0004D6610 /* SuccessView.swift in Sources */,
 				C9D178692C85FFD5004D6610 /* MBTIGridView.swift in Sources */,
 				C9D1785E2C85E82B004D6610 /* CircleProfileView.swift in Sources */,
 				C9D1785C2C85E779004D6610 /* RoundedView.swift in Sources */,
 				C9D178632C85F2D7004D6610 /* MBTIModel.swift in Sources */,
+				C9D178712C860779004D6610 /* SearchModel.swift in Sources */,
 				C9D1785A2C85E26B004D6610 /* ProfileSettingView.swift in Sources */,
 				C9BE839C2C85ADBE00F62F5D /* ContentView.swift in Sources */,
 				C9D178602C85F037004D6610 /* RoundedMBTIView.swift in Sources */,
