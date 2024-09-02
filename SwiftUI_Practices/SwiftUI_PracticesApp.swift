@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftUI_PracticesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnboardingView()
+                .background(Color.white)
         }
     }
 }
