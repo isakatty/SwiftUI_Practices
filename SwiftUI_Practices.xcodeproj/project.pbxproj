@@ -11,6 +11,9 @@
 		C9BE839C2C85ADBE00F62F5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BE839B2C85ADBE00F62F5D /* ContentView.swift */; };
 		C9BE839E2C85ADBF00F62F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BE839D2C85ADBF00F62F5D /* Assets.xcassets */; };
 		C9BE83A12C85ADBF00F62F5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BE83A02C85ADBF00F62F5D /* Preview Assets.xcassets */; };
+		C9C9D9322C874AE900CFB72A /* Markets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C9D9312C874AE900CFB72A /* Markets.swift */; };
+		C9C9D9342C874B2C00CFB72A /* CoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C9D9332C874B2C00CFB72A /* CoinView.swift */; };
+		C9C9D9362C875A3A00CFB72A /* CoinNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C9D9352C875A3A00CFB72A /* CoinNextView.swift */; };
 		C9D1785A2C85E26B004D6610 /* ProfileSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D178592C85E26B004D6610 /* ProfileSettingView.swift */; };
 		C9D1785C2C85E779004D6610 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D1785B2C85E779004D6610 /* RoundedView.swift */; };
 		C9D1785E2C85E82B004D6610 /* CircleProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D1785D2C85E82B004D6610 /* CircleProfileView.swift */; };
@@ -28,6 +31,9 @@
 		C9BE839B2C85ADBE00F62F5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C9BE839D2C85ADBF00F62F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9BE83A02C85ADBF00F62F5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C9C9D9312C874AE900CFB72A /* Markets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Markets.swift; sourceTree = "<group>"; };
+		C9C9D9332C874B2C00CFB72A /* CoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinView.swift; sourceTree = "<group>"; };
+		C9C9D9352C875A3A00CFB72A /* CoinNextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinNextView.swift; sourceTree = "<group>"; };
 		C9D178592C85E26B004D6610 /* ProfileSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingView.swift; sourceTree = "<group>"; };
 		C9D1785B2C85E779004D6610 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		C9D1785D2C85E82B004D6610 /* CircleProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProfileView.swift; sourceTree = "<group>"; };
@@ -139,6 +145,8 @@
 			isa = PBXGroup;
 			children = (
 				C9D1786D2C86076C004D6610 /* SearchView.swift */,
+				C9C9D9332C874B2C00CFB72A /* CoinView.swift */,
+				C9C9D9352C875A3A00CFB72A /* CoinNextView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -147,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				C9D178702C860779004D6610 /* SearchModel.swift */,
+				C9C9D9312C874AE900CFB72A /* Markets.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -235,9 +244,12 @@
 				C9D1785C2C85E779004D6610 /* RoundedView.swift in Sources */,
 				C9D178632C85F2D7004D6610 /* MBTIModel.swift in Sources */,
 				C9D178712C860779004D6610 /* SearchModel.swift in Sources */,
+				C9C9D9342C874B2C00CFB72A /* CoinView.swift in Sources */,
+				C9C9D9322C874AE900CFB72A /* Markets.swift in Sources */,
 				C9D1785A2C85E26B004D6610 /* ProfileSettingView.swift in Sources */,
 				C9BE839C2C85ADBE00F62F5D /* ContentView.swift in Sources */,
 				C9D178602C85F037004D6610 /* RoundedMBTIView.swift in Sources */,
+				C9C9D9362C875A3A00CFB72A /* CoinNextView.swift in Sources */,
 				C9BE839A2C85ADBE00F62F5D /* SwiftUI_PracticesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
