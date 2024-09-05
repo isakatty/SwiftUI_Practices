@@ -10,13 +10,6 @@ import SwiftUI
 struct ProfileSettingView: View {
     @State private var nickname: String = ""
     
-    let mbtiPairs: [(String, String)] = [
-        (Energy.extrovert.toTitle, Energy.introvert.toTitle),
-        (Recognition.sensing.toTitle, Recognition.intuition.toTitle),
-        (Judgement.thinking.toTitle, Judgement.feeling.toTitle),
-        (Life.judging.toTitle, Life.perceiving.toTitle)
-    ]
-    
     @State private var selectedMBTI: [String: String] = [:]
     @State private var allSelected: Bool = false
     

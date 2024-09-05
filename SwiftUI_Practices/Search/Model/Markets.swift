@@ -12,6 +12,7 @@ typealias Markets = [Market]
 struct Market: Hashable, Codable, Identifiable {
     let id = UUID()
     let market, koreanName, englishName: String
+    var isFav = false
 
     enum CodingKeys: String, CodingKey {
         case market
