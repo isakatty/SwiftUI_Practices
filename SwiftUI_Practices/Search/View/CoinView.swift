@@ -23,12 +23,13 @@ struct CoinView: View {
                 print("네?")
                 filterMarkets()
             }
-            //            .onChange(of: searchTxt) { _, _ in
-            //                filterMarkets()
-            //            }
+//            .onChange(of: searchTxt) { _, _ in
+//                filterMarkets()
+//            }
             .refreshable {
                 UpbitAPI.fetchAllMarket { data in
                     markets = data.shuffled()
+                    filterMarkets()
                 }
             }
             .navigationTitle("MyMoney")
@@ -36,6 +37,7 @@ struct CoinView: View {
         .onAppear {
             UpbitAPI.fetchAllMarket { data in
                 markets = data
+                filterMarkets()
             }
         }
     }
@@ -78,7 +80,7 @@ struct CoinView: View {
         LazyVStack {
             ForEach(filteredMarkets.isEmpty ? $markets : $filteredMarkets) { $item in
                 NavigationLink {
-                    CoinRowView(coin: $item)
+                    NavigationLazyView(CoinRowView(coin: $item))
                 } label: {
                     CoinRowView(coin: $item)
                 }

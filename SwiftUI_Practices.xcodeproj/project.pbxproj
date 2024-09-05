@@ -14,6 +14,8 @@
 		C9C9D9322C874AE900CFB72A /* Markets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C9D9312C874AE900CFB72A /* Markets.swift */; };
 		C9C9D9342C874B2C00CFB72A /* CoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C9D9332C874B2C00CFB72A /* CoinView.swift */; };
 		C9C9D9362C875A3A00CFB72A /* CoinNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C9D9352C875A3A00CFB72A /* CoinNextView.swift */; };
+		C9CE40F52C89E2AD00011BF1 /* MyRandomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE40F42C89E2AD00011BF1 /* MyRandomImage.swift */; };
+		C9CE40F72C89E30200011BF1 /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE40F62C89E30200011BF1 /* NavigationLazyView.swift */; };
 		C9D1785A2C85E26B004D6610 /* ProfileSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D178592C85E26B004D6610 /* ProfileSettingView.swift */; };
 		C9D1785C2C85E779004D6610 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D1785B2C85E779004D6610 /* RoundedView.swift */; };
 		C9D1785E2C85E82B004D6610 /* CircleProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D1785D2C85E82B004D6610 /* CircleProfileView.swift */; };
@@ -34,6 +36,8 @@
 		C9C9D9312C874AE900CFB72A /* Markets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Markets.swift; sourceTree = "<group>"; };
 		C9C9D9332C874B2C00CFB72A /* CoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinView.swift; sourceTree = "<group>"; };
 		C9C9D9352C875A3A00CFB72A /* CoinNextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinNextView.swift; sourceTree = "<group>"; };
+		C9CE40F42C89E2AD00011BF1 /* MyRandomImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRandomImage.swift; sourceTree = "<group>"; };
+		C9CE40F62C89E30200011BF1 /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLazyView.swift; sourceTree = "<group>"; };
 		C9D178592C85E26B004D6610 /* ProfileSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingView.swift; sourceTree = "<group>"; };
 		C9D1785B2C85E779004D6610 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		C9D1785D2C85E82B004D6610 /* CircleProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProfileView.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 		C9BE83982C85ADBE00F62F5D /* SwiftUI_Practices */ = {
 			isa = PBXGroup;
 			children = (
+				C9CE40F82C89E48800011BF1 /* Modifier */,
+				C9CE40F32C89E28B00011BF1 /* ScrollableRandomImage */,
 				C9D1786B2C86075D004D6610 /* Search */,
 				C9D1786A2C860750004D6610 /* MBTI */,
 				C9BE83992C85ADBE00F62F5D /* SwiftUI_PracticesApp.swift */,
@@ -90,6 +96,22 @@
 				C9BE83A02C85ADBF00F62F5D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C9CE40F32C89E28B00011BF1 /* ScrollableRandomImage */ = {
+			isa = PBXGroup;
+			children = (
+				C9CE40F42C89E2AD00011BF1 /* MyRandomImage.swift */,
+			);
+			path = ScrollableRandomImage;
+			sourceTree = "<group>";
+		};
+		C9CE40F82C89E48800011BF1 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				C9CE40F62C89E30200011BF1 /* NavigationLazyView.swift */,
+			);
+			path = Modifier;
 			sourceTree = "<group>";
 		};
 		C9D178572C85E1BD004D6610 /* CustomUI */ = {
@@ -248,8 +270,10 @@
 				C9C9D9322C874AE900CFB72A /* Markets.swift in Sources */,
 				C9D1785A2C85E26B004D6610 /* ProfileSettingView.swift in Sources */,
 				C9BE839C2C85ADBE00F62F5D /* ContentView.swift in Sources */,
+				C9CE40F52C89E2AD00011BF1 /* MyRandomImage.swift in Sources */,
 				C9D178602C85F037004D6610 /* RoundedMBTIView.swift in Sources */,
 				C9C9D9362C875A3A00CFB72A /* CoinNextView.swift in Sources */,
+				C9CE40F72C89E30200011BF1 /* NavigationLazyView.swift in Sources */,
 				C9BE839A2C85ADBE00F62F5D /* SwiftUI_PracticesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
