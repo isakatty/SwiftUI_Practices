@@ -16,6 +16,8 @@
 		C9C9D9362C875A3A00CFB72A /* CoinNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C9D9352C875A3A00CFB72A /* CoinNextView.swift */; };
 		C9CE40F52C89E2AD00011BF1 /* MyRandomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE40F42C89E2AD00011BF1 /* MyRandomImage.swift */; };
 		C9CE40F72C89E30200011BF1 /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE40F62C89E30200011BF1 /* NavigationLazyView.swift */; };
+		C9CE40FA2C89E5B700011BF1 /* NavigationWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE40F92C89E5B700011BF1 /* NavigationWrapper.swift */; };
+		C9CE40FC2C89E8C400011BF1 /* NavigationBarWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CE40FB2C89E8C400011BF1 /* NavigationBarWrapper.swift */; };
 		C9D1785A2C85E26B004D6610 /* ProfileSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D178592C85E26B004D6610 /* ProfileSettingView.swift */; };
 		C9D1785C2C85E779004D6610 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D1785B2C85E779004D6610 /* RoundedView.swift */; };
 		C9D1785E2C85E82B004D6610 /* CircleProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D1785D2C85E82B004D6610 /* CircleProfileView.swift */; };
@@ -38,6 +40,8 @@
 		C9C9D9352C875A3A00CFB72A /* CoinNextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinNextView.swift; sourceTree = "<group>"; };
 		C9CE40F42C89E2AD00011BF1 /* MyRandomImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRandomImage.swift; sourceTree = "<group>"; };
 		C9CE40F62C89E30200011BF1 /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLazyView.swift; sourceTree = "<group>"; };
+		C9CE40F92C89E5B700011BF1 /* NavigationWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationWrapper.swift; sourceTree = "<group>"; };
+		C9CE40FB2C89E8C400011BF1 /* NavigationBarWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarWrapper.swift; sourceTree = "<group>"; };
 		C9D178592C85E26B004D6610 /* ProfileSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingView.swift; sourceTree = "<group>"; };
 		C9D1785B2C85E779004D6610 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		C9D1785D2C85E82B004D6610 /* CircleProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProfileView.swift; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				C9CE40F62C89E30200011BF1 /* NavigationLazyView.swift */,
+				C9CE40F92C89E5B700011BF1 /* NavigationWrapper.swift */,
+				C9CE40FB2C89E8C400011BF1 /* NavigationBarWrapper.swift */,
 			);
 			path = Modifier;
 			sourceTree = "<group>";
@@ -262,12 +268,14 @@
 				C9D1786E2C86076C004D6610 /* SearchView.swift in Sources */,
 				C9D178672C85FDE0004D6610 /* SuccessView.swift in Sources */,
 				C9D178692C85FFD5004D6610 /* MBTIGridView.swift in Sources */,
+				C9CE40FC2C89E8C400011BF1 /* NavigationBarWrapper.swift in Sources */,
 				C9D1785E2C85E82B004D6610 /* CircleProfileView.swift in Sources */,
 				C9D1785C2C85E779004D6610 /* RoundedView.swift in Sources */,
 				C9D178632C85F2D7004D6610 /* MBTIModel.swift in Sources */,
 				C9D178712C860779004D6610 /* SearchModel.swift in Sources */,
 				C9C9D9342C874B2C00CFB72A /* CoinView.swift in Sources */,
 				C9C9D9322C874AE900CFB72A /* Markets.swift in Sources */,
+				C9CE40FA2C89E5B700011BF1 /* NavigationWrapper.swift in Sources */,
 				C9D1785A2C85E26B004D6610 /* ProfileSettingView.swift in Sources */,
 				C9BE839C2C85ADBE00F62F5D /* ContentView.swift in Sources */,
 				C9CE40F52C89E2AD00011BF1 /* MyRandomImage.swift in Sources */,

@@ -13,7 +13,7 @@ struct CoinView: View {
     @State private var filteredMarkets: [Market] = []
     
     var body: some View {
-        NavigationView {
+        NavigationWrapper {
             ScrollView {
                 makeBannerView()
                 makeListView()
