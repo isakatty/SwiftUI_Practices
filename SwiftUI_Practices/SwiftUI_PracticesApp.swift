@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_PracticesApp: App {
     var body: some Scene {
         WindowGroup {
-            CoinView()
+            MyRandomImage()
                 .background(Color.white)
         }
     }
