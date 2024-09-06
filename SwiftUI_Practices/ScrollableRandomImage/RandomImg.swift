@@ -18,10 +18,7 @@ struct SectionImg: Identifiable, Comparable {
     let id = UUID()
     let sectionCount: Int
     let images: Images
-    
-    var sectionTitle: String {
-        return "\(sectionCount)번째 Section"
-    }
+    var sectionTitle: String
 }
 
 typealias Images = [RandomImg]
